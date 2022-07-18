@@ -1,12 +1,12 @@
-import { terser } from 'rollup-plugin-terser'
-import replace from '@rollup/plugin-replace'
-import resolve from '@rollup/plugin-node-resolve'
-import commonjs from '@rollup/plugin-commonjs'
-import filesize from 'rollup-plugin-filesize'
-import typescript from '@rollup/plugin-typescript'
-import visualizer from 'rollup-plugin-visualizer'
+const { terser } = require('rollup-plugin-terser')
+const replace = require('@rollup/plugin-replace')
+const resolve = require('@rollup/plugin-node-resolve')
+const commonjs = require('@rollup/plugin-commonjs')
+const filesize = require('rollup-plugin-filesize')
+const typescript = require('@rollup/plugin-typescript')
+const visualizer = require('rollup-plugin-visualizer')
 
-export default ({
+module.exports = function ({
   plugins = [],
   visualize = false,
   output = [],
@@ -17,7 +17,7 @@ export default ({
   terserOptions,
   filesizeOptions,
   ...others
-}) => {
+}) {
   if (visualize) {
     const outputs = Array.isArray(output) ? output : [output]
     outputs.forEach(({ file }) => {
