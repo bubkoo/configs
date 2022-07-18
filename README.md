@@ -1,8 +1,4 @@
-# configs
-
-Shared configs for my projects.
-
-## Packages
+# Packages
 This monorepo contains multiple packages. Take a look at their READMEs for more details.
 
 - [tsconfig](./packages/tsconfig)
@@ -12,6 +8,6 @@ This monorepo contains multiple packages. Take a look at their READMEs for more 
 - [rollup-config](./packages/rollup-config)
 - [semantic-release-config](./packages/semantic-release-config)
 
-## License
+# License
 
 The scripts and documentation in this project are released under the [MIT License](LICENSE)
