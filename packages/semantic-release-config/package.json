@@ -9,13 +9,13 @@
   "keywords": [
     "semantic-release",
     "semantic-release-config",
+    ".releaserc.json",
+    "release.config.js",
+    "git",
     "npm",
     "github",
-    "git",
     "release",
-    "changelog",
-    ".releaserc.json",
-    "release.config.js"
+    "changelog"
   ],
   "peerDependencies": {
     "semantic-release": ">=19.0.0"
