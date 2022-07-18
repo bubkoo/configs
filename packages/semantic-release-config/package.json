@@ -9,6 +9,8 @@
   "keywords": [
     "semantic-release",
     "semantic-release-config",
+    ".releaserc",
+    ".releaserc.js",
     ".releaserc.json",
     "release.config.js",
     "git",
