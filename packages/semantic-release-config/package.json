@@ -13,6 +13,7 @@
     ".releaserc.js",
     ".releaserc.json",
     "release.config.js",
+    "semantic",
     "git",
     "npm",
     "github",
