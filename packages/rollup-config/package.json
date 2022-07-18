@@ -12,10 +12,10 @@
     "config",
     "configuration"
   ],
-  "scripts": {},
   "peerDependencies": {
     "rollup": ">=2.56.0",
-    "typescript": "^4.7.0"
+    "typescript": "^4.7.0",
+    "tslib": ">=2.4.0"
   },
   "dependencies": {
     "@rollup/plugin-commonjs": "^22.0.1",
@@ -26,12 +26,12 @@
     "rollup-plugin-filesize": "^9.1.2",
     "rollup-plugin-progress": "^1.1.2",
     "rollup-plugin-terser": "^7.0.2",
-    "rollup-plugin-visualizer": "^5.7.1",
-    "tslib": "^2.4.0"
+    "rollup-plugin-visualizer": "^5.7.1"
   },
   "devDependencies": {
     "rollup": "^2.77.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "tslib": "^2.4.0"
   },
   "author": {
     "name": "bubkoo",
