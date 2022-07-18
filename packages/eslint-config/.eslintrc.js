@@ -68,6 +68,7 @@ module.exports = {
     'no-param-reassign': [2, { props: false }],
     'no-cond-assign': [2, 'except-parens'],
     'no-console': [2, { allow: ['warn', 'error'] }],
+    'no-plusplus': [2, { allowForLoopAfterthoughts: true }],
     '@typescript-eslint/no-unused-expressions': [
       2,
       { allowShortCircuit: true, allowTernary: true },
