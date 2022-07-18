@@ -5,7 +5,7 @@
 ## Install
 
 ```sh
-npm install --save-dev rollup typescript @bubkoo/rollup-config
+npm install --save-dev rollup typescript tslib @bubkoo/rollup-config
 ```
 ## Usage
 
