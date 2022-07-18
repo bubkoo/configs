@@ -1,10 +1,10 @@
 const { terser } = require('rollup-plugin-terser')
+const { visualizer } = require('rollup-plugin-visualizer')
+const { nodeResolve } = require('@rollup/plugin-node-resolve')
 const replace = require('@rollup/plugin-replace')
-const resolve = require('@rollup/plugin-node-resolve')
 const commonjs = require('@rollup/plugin-commonjs')
 const filesize = require('rollup-plugin-filesize')
 const typescript = require('@rollup/plugin-typescript')
-const visualizer = require('rollup-plugin-visualizer')
 
 module.exports = function ({
   plugins = [],
@@ -32,7 +32,7 @@ module.exports = function ({
     input: './src/index.ts',
     plugins: [
       typescript({ ...typescriptOptions, declaration: false }),
-      resolve(resolveOptions),
+      nodeResolve(resolveOptions),
       commonjs(commonjsOptions),
       replace({
         ...replaceOptions,
