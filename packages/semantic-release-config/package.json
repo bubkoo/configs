@@ -17,7 +17,6 @@
     ".releaserc.json",
     "release.config.js"
   ],
-  "scripts": {},
   "peerDependencies": {
     "semantic-release": ">=19.0.0"
   },
