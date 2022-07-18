@@ -14,8 +14,6 @@
     "git",
     "release",
     "changelog",
-    "semantic-release-config",
-    "semantic-release",
     ".releaserc.json",
     "release.config.js"
   ],
