@@ -1,0 +1,42 @@
+{
+  "name": "@bubkoo/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared tsconfig for my projects",
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "keywords": [
+    "tsconfig",
+    "typescript",
+    "ts",
+    "config",
+    "configuration"
+  ],
+  "scripts": {},
+  "peerDependencies": {
+    "typescript": ">=4.7.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/bubkoo/configs",
+  "bugs": {
+    "url": "https://github.com/bubkoo/configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/bubkoo/configs.git",
+    "directory": "packages/tsconfig"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
