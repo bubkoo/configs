@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/semantic-release-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Sharable configuration for semantic-release, extends experience for publishing to NPM & Github",
   "main": "release.config.js",
   "files": [
