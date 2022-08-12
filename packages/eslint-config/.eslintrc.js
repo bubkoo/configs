@@ -75,6 +75,7 @@ module.exports = {
     ],
     eqeqeq: [2, 'always', { null: 'ignore' }],
     'func-names': [1, 'never', { generators: 'as-needed' }],
+    'unicorn/filename-case': [1, { case: 'kebabCase' }],
     'import/export': 0,
     'import/no-cycle': 0,
     'import/extensions': 0,
