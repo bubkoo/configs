@@ -46,7 +46,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect',
+      version: '18.x',
     },
   },
   rules: {
