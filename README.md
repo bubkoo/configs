@@ -6,6 +6,7 @@ This monorepo contains multiple packages. Take a look at their READMEs for more 
 - [prettier-config](./packages/prettier-config)
 - [stylelint-config](./packages/stylelint-config)
 - [rollup-config](./packages/rollup-config)
+- [jest-config](./packages/jest-config)
 - [semantic-release-config](./packages/semantic-release-config)
 - [commitlint-config](./packages/commitlint-config)
 

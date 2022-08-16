@@ -1,0 +1,39 @@
+{
+  "name": "@bubkoo/jest-config",
+  "version": "1.0.0",
+  "description": "Shared jest config for my projects",
+  "main": "jest.config.js",
+  "files": [
+    "jest.config.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jest",
+    "config",
+    "configuration"
+  ],
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "jest": "*",
+    "ts-jest": "*"
+  },
+  "homepage": "https://github.com/bubkoo/configs",
+  "bugs": {
+    "url": "https://github.com/bubkoo/configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/bubkoo/configs.git",
+    "directory": "packages/commitlint-config"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
