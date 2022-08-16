@@ -7,6 +7,7 @@ This monorepo contains multiple packages. Take a look at their READMEs for more 
 - [stylelint-config](./packages/stylelint-config)
 - [rollup-config](./packages/rollup-config)
 - [semantic-release-config](./packages/semantic-release-config)
+- [commitlint-config](./packages/commitlint-config)
 
 # License
 
