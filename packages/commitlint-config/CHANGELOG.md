@@ -1,3 +1,10 @@
+## @bubkoo/commitlint-config [1.0.1](https://github.com/bubkoo/configs/compare/@bubkoo/commitlint-config@1.0.0...@bubkoo/commitlint-config@1.0.1) (2022-08-16)
+
+
+### Bug Fixes
+
+* module files ([ce8e620](https://github.com/bubkoo/configs/commit/ce8e620fbb930a0a8ce7081408fddb95ee31908f))
+
 # @bubkoo/commitlint-config 1.0.0 (2022-08-16)
 
 
