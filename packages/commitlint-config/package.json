@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "Shared commitlint config for my projects",
   "main": "commitlint.config.js",
+  "files": [
+    "commitlint.config.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "commitlint",
+    "config",
+    "configuration"
+  ],
   "dependencies": {
     "@commitlint/config-conventional": "^17.0.3"
   },
