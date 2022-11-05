@@ -1,3 +1,10 @@
+## @bubkoo/semantic-release-config [1.3.1](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.3.0...@bubkoo/semantic-release-config@1.3.1) (2022-11-05)
+
+
+### Bug Fixes
+
+* major release on breaking changes ([aa4a282](https://github.com/bubkoo/configs/commit/aa4a2823d11bc6373261c45a16c350f798ca366c))
+
 # @bubkoo/semantic-release-config [1.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.2.0...@bubkoo/semantic-release-config@1.3.0) (2022-07-18)
 
 
