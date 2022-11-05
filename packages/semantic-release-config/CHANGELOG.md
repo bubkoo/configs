@@ -1,3 +1,10 @@
+# @bubkoo/semantic-release-config [1.4.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.3.1...@bubkoo/semantic-release-config@1.4.0) (2022-11-05)
+
+
+### Features
+
+* add release rules ([fe245eb](https://github.com/bubkoo/configs/commit/fe245ebb18243c281be57ea3a3eadd593468eb73))
+
 ## @bubkoo/semantic-release-config [1.3.1](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.3.0...@bubkoo/semantic-release-config@1.3.1) (2022-11-05)
 
 
