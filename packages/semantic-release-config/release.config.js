@@ -36,6 +36,9 @@ module.exports = {
       '@semantic-release/git',
       {
         assets: ['package.json', 'CHANGELOG.md'],
+        message:
+          // eslint-disable-next-line no-template-curly-in-string
+          'chore(release): ${nextRelease.gitTag} [skip ci]\n\n${nextRelease.notes}',
       },
     ],
   ],
