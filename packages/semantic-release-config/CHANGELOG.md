@@ -1,3 +1,10 @@
+# @bubkoo/semantic-release-config [1.5.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.4.0...@bubkoo/semantic-release-config@1.5.0) (2022-11-25)
+
+
+### Features
+
+* add default commit message with gitTag info ([df5caed](https://github.com/bubkoo/configs/commit/df5caed99af57589afa5eb157130b4c03b0e4899))
+
 # @bubkoo/semantic-release-config [1.4.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.3.1...@bubkoo/semantic-release-config@1.4.0) (2022-11-05)
 
 
