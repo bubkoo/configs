@@ -24,7 +24,7 @@ jobs:
         run: pnpm run build
 
       - name: Release
-        run: pnpm srm
+        run: pnpm srm --combine-commits
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
