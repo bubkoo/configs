@@ -17,14 +17,14 @@
     "stylelint": ">=14.9.0"
   },
   "dependencies": {
-    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-prettier": "^9.0.4",
     "stylelint-config-rational-order": "^0.1.2",
-    "stylelint-config-standard": "^26.0.0",
-    "stylelint-declaration-block-no-ignored-properties": "^2.5.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.6.0",
     "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "stylelint": "^14.9.1"
+    "stylelint": "^14.15.0"
   },
   "author": {
     "name": "bubkoo",
