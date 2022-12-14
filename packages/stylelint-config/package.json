@@ -24,7 +24,7 @@
     "stylelint-order": "^5.0.0"
   },
   "devDependencies": {
-    "stylelint": "^14.15.0"
+    "stylelint": "^14.16.0"
   },
   "author": {
     "name": "bubkoo",
