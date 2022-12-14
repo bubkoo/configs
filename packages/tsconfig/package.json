@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/tsconfig",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Shared tsconfig for my projects",
   "main": "tsconfig.json",
   "files": [

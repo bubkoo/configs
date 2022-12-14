@@ -1,3 +1,10 @@
+# @bubkoo/eslint-config [1.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.2.0...@bubkoo/eslint-config@1.3.0) (2022-12-14)
+
+
+### Features
+
+* update deps ([1c6496b](https://github.com/bubkoo/configs/commit/1c6496b5683e138e66529a7e51f7b4cd788676b8))
+
 # @bubkoo/eslint-config [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.1.0...@bubkoo/eslint-config@1.2.0) (2022-08-12)
 
 
