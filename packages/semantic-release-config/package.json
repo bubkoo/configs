@@ -28,7 +28,7 @@
     "@semantic-release/git": "^10.0.1"
   },
   "devDependencies": {
-    "semantic-release": "^19.0.5"
+    "semantic-release": "^20.1.0"
   },
   "author": {
     "name": "bubkoo",
