@@ -1,6 +1,6 @@
-const { terser } = require('rollup-plugin-terser')
 const { visualizer } = require('rollup-plugin-visualizer')
 const { nodeResolve } = require('@rollup/plugin-node-resolve')
+const terser = require('@rollup/plugin-terser')
 const replace = require('@rollup/plugin-replace')
 const commonjs = require('@rollup/plugin-commonjs')
 const filesize = require('rollup-plugin-filesize')
@@ -39,7 +39,7 @@ module.exports = function ({
         preventAssignment: true,
         'process.env.NODE_ENV': JSON.stringify('production'),
       }),
-      terser(terserOptions),
+      terser({ ...terserOptions, sourcemap: true }),
       filesize(filesizeOptions),
       ...plugins,
     ],
