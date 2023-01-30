@@ -1,3 +1,5 @@
+## @bubkoo/commitlint-config [1.0.2](https://github.com/bubkoo/configs/compare/@bubkoo/commitlint-config@1.0.1...@bubkoo/commitlint-config@1.0.2) (2023-01-30)
+
 ## @bubkoo/commitlint-config [1.0.1](https://github.com/bubkoo/configs/compare/@bubkoo/commitlint-config@1.0.0...@bubkoo/commitlint-config@1.0.1) (2022-08-16)
 
 

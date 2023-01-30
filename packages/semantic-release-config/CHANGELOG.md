@@ -1,3 +1,5 @@
+## @bubkoo/semantic-release-config [1.6.1](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.6.0...@bubkoo/semantic-release-config@1.6.1) (2023-01-30)
+
 # @bubkoo/semantic-release-config [1.6.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.5.0...@bubkoo/semantic-release-config@1.6.0) (2022-12-01)
 
 

@@ -1,3 +1,5 @@
+## @bubkoo/stylelint-config [1.1.1](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.1.0...@bubkoo/stylelint-config@1.1.1) (2023-01-30)
+
 # @bubkoo/stylelint-config [1.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.0.1...@bubkoo/stylelint-config@1.1.0) (2022-12-14)
 
 

@@ -1,3 +1,10 @@
+# @bubkoo/rollup-config [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/rollup-config@1.1.0...@bubkoo/rollup-config@1.2.0) (2023-01-30)
+
+
+### Features
+
+* use "@rollup/plugin-terser" ([ece5ef5](https://github.com/bubkoo/configs/commit/ece5ef508be85766a9cfd0306191da9783724bcc))
+
 # @bubkoo/rollup-config [1.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/rollup-config@1.0.3...@bubkoo/rollup-config@1.1.0) (2022-12-14)
 
 
