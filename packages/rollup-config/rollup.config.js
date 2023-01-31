@@ -32,14 +32,14 @@ module.exports = function ({
     input: './src/index.ts',
     plugins: [
       typescript({ ...typescriptOptions, declaration: false }),
-      nodeResolve(resolveOptions),
-      commonjs(commonjsOptions),
+      nodeResolve({ ...resolveOptions }),
+      commonjs({ ...commonjsOptions }),
       replace({
         ...replaceOptions,
         preventAssignment: true,
         'process.env.NODE_ENV': JSON.stringify('production'),
       }),
-      terser({ ...terserOptions, sourcemap: true }),
+      terser({ ...terserOptions }),
       filesize(filesizeOptions),
       ...plugins,
     ],
