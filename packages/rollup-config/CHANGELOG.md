@@ -1,3 +1,10 @@
+## @bubkoo/rollup-config [1.2.1](https://github.com/bubkoo/configs/compare/@bubkoo/rollup-config@1.2.0...@bubkoo/rollup-config@1.2.1) (2023-01-31)
+
+
+### Bug Fixes
+
+* remove sourcemap option of terser ([0d291f2](https://github.com/bubkoo/configs/commit/0d291f2193e331bafb1be0763fe0cb0c9abe9279))
+
 # @bubkoo/rollup-config [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/rollup-config@1.1.0...@bubkoo/rollup-config@1.2.0) (2023-01-30)
 
 
