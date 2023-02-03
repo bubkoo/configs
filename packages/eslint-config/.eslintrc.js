@@ -13,7 +13,6 @@ module.exports = {
     'react',
     'react-hooks',
     'unicorn',
-    'deprecation',
     'json-format',
   ],
   extends: [
@@ -117,7 +116,6 @@ module.exports = {
     'react/jsx-props-no-spreading': 0,
     'react/destructuring-assignment': 0,
     'react/no-access-state-in-setstate': 0,
-    'deprecation/deprecation': 1,
   },
   overrides: [
     {
