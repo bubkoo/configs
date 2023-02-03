@@ -1,3 +1,10 @@
+## @bubkoo/eslint-config [1.4.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.4.0...@bubkoo/eslint-config@1.4.1) (2023-02-03)
+
+
+### Bug Fixes
+
+* remove "deprecation/deprecation" rule ([7d45c31](https://github.com/bubkoo/configs/commit/7d45c3115991566842509a8b3a9eb431b400912f))
+
 # @bubkoo/eslint-config [1.4.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.3.1...@bubkoo/eslint-config@1.4.0) (2023-02-03)
 
 
