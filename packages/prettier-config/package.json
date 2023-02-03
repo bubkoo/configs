@@ -35,5 +35,8 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "prettier-plugin-packagejson": "^2.4.2"
   }
 }

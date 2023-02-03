@@ -29,9 +29,9 @@
     "rollup-plugin-visualizer": "^5.9.0"
   },
   "devDependencies": {
-    "rollup": "^3.12.0",
+    "rollup": "^3.12.1",
     "tslib": "^2.5.0",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.5"
   },
   "author": {
     "name": "bubkoo",
