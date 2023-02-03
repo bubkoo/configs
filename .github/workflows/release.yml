@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          persist-credentials: false
       - uses: pnpm/action-setup@v2.2.2
       - name: Set node version to 16.x
         uses: actions/setup-node@v3
