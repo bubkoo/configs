@@ -1,3 +1,10 @@
+# @bubkoo/eslint-config [1.4.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.3.1...@bubkoo/eslint-config@1.4.0) (2023-02-03)
+
+
+### Features
+
+* add deprecation, json, yml rules ([8412a5a](https://github.com/bubkoo/configs/commit/8412a5a10de8bc15dd8565d7149fa0997ea7fa87))
+
 ## @bubkoo/eslint-config [1.3.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.3.0...@bubkoo/eslint-config@1.3.1) (2023-01-30)
 
 # @bubkoo/eslint-config [1.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.2.0...@bubkoo/eslint-config@1.3.0) (2022-12-14)
