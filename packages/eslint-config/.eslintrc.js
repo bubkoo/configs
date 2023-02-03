@@ -13,6 +13,8 @@ module.exports = {
     'react',
     'react-hooks',
     'unicorn',
+    'deprecation',
+    'json-format',
   ],
   extends: [
     'airbnb-base',
@@ -26,6 +28,10 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
+    'plugin:json/recommended',
+    'plugin:jsonc/recommended-with-jsonc',
+    'plugin:json-schema-validator/recommended',
+    'plugin:yml/standard',
   ],
   env: {
     browser: true,
@@ -111,6 +117,7 @@ module.exports = {
     'react/jsx-props-no-spreading': 0,
     'react/destructuring-assignment': 0,
     'react/no-access-state-in-setstate': 0,
+    'deprecation/deprecation': 1,
   },
   overrides: [
     {
