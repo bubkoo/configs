@@ -16,7 +16,7 @@
     "prettier": ">=2.7.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.4"
   },
   "author": {
     "name": "bubkoo",
