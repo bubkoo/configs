@@ -1,3 +1,5 @@
+## @bubkoo/eslint-config [1.4.2](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.4.1...@bubkoo/eslint-config@1.4.2) (2023-02-09)
+
 ## @bubkoo/eslint-config [1.4.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.4.0...@bubkoo/eslint-config@1.4.1) (2023-02-03)
 
 

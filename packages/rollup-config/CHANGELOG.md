@@ -1,3 +1,5 @@
+## @bubkoo/rollup-config [1.2.2](https://github.com/bubkoo/configs/compare/@bubkoo/rollup-config@1.2.1...@bubkoo/rollup-config@1.2.2) (2023-02-09)
+
 ## @bubkoo/rollup-config [1.2.1](https://github.com/bubkoo/configs/compare/@bubkoo/rollup-config@1.2.0...@bubkoo/rollup-config@1.2.1) (2023-01-31)
 
 

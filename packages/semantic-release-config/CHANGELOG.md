@@ -1,3 +1,10 @@
+# @bubkoo/semantic-release-config [1.7.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.6.1...@bubkoo/semantic-release-config@1.7.0) (2023-02-09)
+
+
+### Features
+
+* export config function ([4576154](https://github.com/bubkoo/configs/commit/4576154ef3fcb9bd54c1fcebbba0b24d8df9d849))
+
 ## @bubkoo/semantic-release-config [1.6.1](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.6.0...@bubkoo/semantic-release-config@1.6.1) (2023-01-30)
 
 # @bubkoo/semantic-release-config [1.6.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.5.0...@bubkoo/semantic-release-config@1.6.0) (2022-12-01)
