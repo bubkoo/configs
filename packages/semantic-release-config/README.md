@@ -28,10 +28,22 @@ $ npm install --save-dev semantic-release @bubkoo/semantic-release-config
 
 ## Usage
 
-The shareable config can be configured in the [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration):
-
+The shareable config can be configured in the [**semantic-release** configuration file](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/configuration.md#configuration) with default configuration:
 ```json
 {
   "extends": "@bubkoo/semantic-release-config"
 }
+```
+
+We can also specify plugin options in `.prettierrc.js` file:
+```js
+var config = require('@bubkoo/semantic-release-config/config');
+module.exports = config({
+  commitAnalyzer: {...},
+  releaseNotesGenerator: {...},
+  changelog: {...},
+  npm: {...},
+  github: {...},
+  git: {...},
+})
 ```
