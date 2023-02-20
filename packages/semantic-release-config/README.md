@@ -35,7 +35,7 @@ The shareable config can be configured in the [**semantic-release** configuratio
 }
 ```
 
-We can also specify plugin options in `.prettierrc.js` file:
+We can also specify plugin options in `.releaserc.js` file:
 ```js
 var config = require('@bubkoo/semantic-release-config/config');
 module.exports = config({
