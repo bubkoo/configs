@@ -15,7 +15,7 @@
     "configuration"
   ],
   "dependencies": {
-    "@commitlint/config-conventional": "^17.4.2"
+    "@commitlint/config-conventional": "^17.4.4"
   },
   "author": {
     "name": "bubkoo",
