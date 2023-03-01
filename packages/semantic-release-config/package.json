@@ -14,7 +14,8 @@
     }
   },
   "files": [
-    "release.config.js"
+    "release.config.js",
+    "config.js"
   ],
   "keywords": [
     "semantic-release",
