@@ -1,3 +1,15 @@
+# @bubkoo/semantic-release-config [1.8.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.7.1...@bubkoo/semantic-release-config@1.8.0) (2023-03-01)
+
+
+### Bug Fixes
+
+* incloud missing file ([b6e82de](https://github.com/bubkoo/configs/commit/b6e82debee00bd41fba4ce574de523e6bfc86b98))
+
+
+### Features
+
+* update dependencies ([3469090](https://github.com/bubkoo/configs/commit/3469090880735010c7f8f90ae746969eed1269ef))
+
 ## @bubkoo/semantic-release-config [1.7.1](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.7.0...@bubkoo/semantic-release-config@1.7.1) (2023-02-20)
 
 # @bubkoo/semantic-release-config [1.7.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.6.1...@bubkoo/semantic-release-config@1.7.0) (2023-02-09)

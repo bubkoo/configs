@@ -1,3 +1,10 @@
+# @bubkoo/stylelint-config [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.1.1...@bubkoo/stylelint-config@1.2.0) (2023-03-01)
+
+
+### Features
+
+* update dependencies ([3469090](https://github.com/bubkoo/configs/commit/3469090880735010c7f8f90ae746969eed1269ef))
+
 ## @bubkoo/stylelint-config [1.1.1](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.1.0...@bubkoo/stylelint-config@1.1.1) (2023-01-30)
 
 # @bubkoo/stylelint-config [1.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.0.1...@bubkoo/stylelint-config@1.1.0) (2022-12-14)
