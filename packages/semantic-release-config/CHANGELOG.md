@@ -1,3 +1,10 @@
+## @bubkoo/semantic-release-config [1.8.1](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.8.0...@bubkoo/semantic-release-config@1.8.1) (2023-03-01)
+
+
+### Bug Fixes
+
+* make 'semantic-release' peer dependence optional ([0952c38](https://github.com/bubkoo/configs/commit/0952c389f240b3cf5b218b7a1a12b25504a8f2a5))
+
 # @bubkoo/semantic-release-config [1.8.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.7.1...@bubkoo/semantic-release-config@1.8.0) (2023-03-01)
 
 
