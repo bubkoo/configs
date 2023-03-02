@@ -1,8 +1,8 @@
 {
   "private": true,
-  "homepage": "https://github.com/bubkoo/coder-calendar",
+  "homepage": "https://github.com/bubkoo/configs",
   "bugs": {
-    "url": "https://github.com/bubkoo/coder-calendar/issues"
+    "url": "https://github.com/bubkoo/configs/issues"
   },
   "license": "MIT",
   "author": {
@@ -14,18 +14,6 @@
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "build": "pnpm -r --filter=./packages/* run build",
     "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*": [
-      "prettier --write --ignore-unknown"
-    ],
-    "*.js": [
-      "prettier --write"
-    ],
-    "*.ts?(x)": [
-      "eslint --fix",
-      "prettier --parser=typescript --write"
-    ]
   },
   "devDependencies": {
     "@semantic-release-monorepo/cli": "^2.1.5",

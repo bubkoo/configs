@@ -1,0 +1,32 @@
+{
+  "name": "@bubkoo/lint-staged-config",
+  "version": "1.2.0",
+  "description": "Shared lint-staged config for my projects",
+  "keywords": [
+    "lint-staged",
+    "config",
+    "configuration"
+  ],
+  "homepage": "https://github.com/bubkoo/configs",
+  "bugs": {
+    "url": "https://github.com/bubkoo/configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/bubkoo/configs.git",
+    "directory": "packages/lint-staged-config"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "main": "lint-staged.config.js",
+  "files": [
+    "lint-staged.config.js"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  }
+}
