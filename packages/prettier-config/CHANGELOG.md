@@ -1,3 +1,10 @@
+# @bubkoo/prettier-config [1.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.2.0...@bubkoo/prettier-config@1.3.0) (2023-03-02)
+
+
+### Features
+
+* add prettier-plugin-packagejson ([96ff706](https://github.com/bubkoo/configs/commit/96ff70619871d01ca6cbb01be69ff42f6159b074))
+
 # @bubkoo/prettier-config [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.1.2...@bubkoo/prettier-config@1.2.0) (2023-03-01)
 
 
