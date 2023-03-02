@@ -2,27 +2,11 @@
   "name": "@bubkoo/prettier-config",
   "version": "1.2.0",
   "description": "Shared prettier config for my projects",
-  "main": "prettier.config.js",
-  "files": [
-    "prettier.config.js"
-  ],
   "keywords": [
     "prettier",
     "config",
     "configuration"
   ],
-  "scripts": {},
-  "peerDependencies": {
-    "prettier": ">=2.7.0"
-  },
-  "devDependencies": {
-    "prettier": "^2.8.4"
-  },
-  "author": {
-    "name": "bubkoo",
-    "email": "bubkoo.wy@gmail.com"
-  },
-  "license": "MIT",
   "homepage": "https://github.com/bubkoo/configs",
   "bugs": {
     "url": "https://github.com/bubkoo/configs/issues"
@@ -32,11 +16,27 @@
     "url": "ssh://git@github.com/bubkoo/configs.git",
     "directory": "packages/prettier-config"
   },
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "main": "prettier.config.js",
+  "files": [
+    "prettier.config.js"
+  ],
+  "scripts": {},
+  "dependencies": {
+    "prettier-plugin-packagejson": "^2.4.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "prettier": ">=2.7.0"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  },
-  "dependencies": {
-    "prettier-plugin-packagejson": "^2.4.3"
   }
 }

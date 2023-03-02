@@ -2,20 +2,31 @@
   "name": "@bubkoo/stylelint-config",
   "version": "1.2.0",
   "description": "Shared stylelint config for my projects",
-  "main": ".stylelintrc.js",
-  "files": [
-    ".stylelintrc.js"
-  ],
   "keywords": [
     "stylelint",
     "stylelintrc",
     "config",
     "configuration"
   ],
-  "scripts": {},
-  "peerDependencies": {
-    "stylelint": ">=14.9.0"
+  "homepage": "https://github.com/bubkoo/configs",
+  "bugs": {
+    "url": "https://github.com/bubkoo/configs/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/bubkoo/configs.git",
+    "directory": "packages/stylelint-config"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "main": ".stylelintrc.js",
+  "files": [
+    ".stylelintrc.js"
+  ],
+  "scripts": {},
   "dependencies": {
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-rational-order": "^0.1.2",
@@ -26,19 +37,8 @@
   "devDependencies": {
     "stylelint": "^15.2.0"
   },
-  "author": {
-    "name": "bubkoo",
-    "email": "bubkoo.wy@gmail.com"
-  },
-  "license": "MIT",
-  "homepage": "https://github.com/bubkoo/configs",
-  "bugs": {
-    "url": "https://github.com/bubkoo/configs/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://git@github.com/bubkoo/configs.git",
-    "directory": "packages/stylelint-config"
+  "peerDependencies": {
+    "stylelint": ">=14.9.0"
   },
   "publishConfig": {
     "access": "public",

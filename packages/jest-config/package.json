@@ -2,27 +2,11 @@
   "name": "@bubkoo/jest-config",
   "version": "1.1.0",
   "description": "Shared jest config for my projects",
-  "main": "jest.config.js",
-  "files": [
-    "jest.config.js"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
     "jest",
     "config",
     "configuration"
   ],
-  "author": {
-    "name": "bubkoo",
-    "email": "bubkoo.wy@gmail.com"
-  },
-  "license": "MIT",
-  "peerDependencies": {
-    "jest": "*",
-    "ts-jest": "*"
-  },
   "homepage": "https://github.com/bubkoo/configs",
   "bugs": {
     "url": "https://github.com/bubkoo/configs/issues"
@@ -31,6 +15,22 @@
     "type": "git",
     "url": "ssh://git@github.com/bubkoo/configs.git",
     "directory": "packages/commitlint-config"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "main": "jest.config.js",
+  "files": [
+    "jest.config.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "jest": "*",
+    "ts-jest": "*"
   },
   "publishConfig": {
     "access": "public",

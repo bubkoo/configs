@@ -2,10 +2,6 @@
   "name": "@bubkoo/tsconfig",
   "version": "1.1.0",
   "description": "Shared tsconfig for my projects",
-  "main": "tsconfig.json",
-  "files": [
-    "tsconfig.json"
-  ],
   "keywords": [
     "tsconfig",
     "typescript",
@@ -13,18 +9,6 @@
     "config",
     "configuration"
   ],
-  "scripts": {},
-  "peerDependencies": {
-    "typescript": ">=4.7.0"
-  },
-  "devDependencies": {
-    "typescript": "^4.9.5"
-  },
-  "author": {
-    "name": "bubkoo",
-    "email": "bubkoo.wy@gmail.com"
-  },
-  "license": "MIT",
   "homepage": "https://github.com/bubkoo/configs",
   "bugs": {
     "url": "https://github.com/bubkoo/configs/issues"
@@ -33,6 +17,22 @@
     "type": "git",
     "url": "ssh://git@github.com/bubkoo/configs.git",
     "directory": "packages/tsconfig"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "main": "tsconfig.json",
+  "files": [
+    "tsconfig.json"
+  ],
+  "scripts": {},
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.7.0"
   },
   "publishConfig": {
     "access": "public",
