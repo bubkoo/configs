@@ -22,9 +22,9 @@
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "main": ".eslintrc.js",
+  "main": "src/index.js",
   "files": [
-    ".eslintrc.js",
+    "src",
     "setup.js"
   ],
   "scripts": {
