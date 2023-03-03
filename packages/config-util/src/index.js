@@ -1,3 +1,2 @@
-const mkfile = require('./mkfile')
-
-exports.mkfile = mkfile
+exports.mkfile = require('./mkfile')
+exports.hasAnyDeps = require('./has-any-deps')
