@@ -1,3 +1,24 @@
+# @bubkoo/eslint-config [2.0.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.5.1...@bubkoo/eslint-config@2.0.0) (2023-03-03)
+
+
+### Features
+
+* add setup script ([1793a01](https://github.com/bubkoo/configs/commit/1793a011116b68250b262ab9ffa679b03c0aabcd))
+* auto detect deps and load rules ([304061e](https://github.com/bubkoo/configs/commit/304061e5b4b86a410194ad1c085508b82b681f54))
+
+
+### BREAKING CHANGES
+
+* auto detect deps and load rules
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.0.0
+
 ## @bubkoo/eslint-config [1.5.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.5.0...@bubkoo/eslint-config@1.5.1) (2023-03-02)
 
 # @bubkoo/eslint-config [1.5.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@1.4.2...@bubkoo/eslint-config@1.5.0) (2023-03-01)

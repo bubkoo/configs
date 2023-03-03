@@ -1,3 +1,15 @@
+# @bubkoo/lint-staged-config [1.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.0.0...@bubkoo/lint-staged-config@1.1.0) (2023-03-03)
+
+
+### Bug Fixes
+
+* typos ([a70dd45](https://github.com/bubkoo/configs/commit/a70dd45ea0370681b7530e7a637558d333d64b56))
+
+
+### Features
+
+* add setup script ([1793a01](https://github.com/bubkoo/configs/commit/1793a011116b68250b262ab9ffa679b03c0aabcd))
+
 # @bubkoo/lint-staged-config 1.0.0 (2023-03-02)
 
 ### Features

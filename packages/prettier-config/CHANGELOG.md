@@ -1,3 +1,18 @@
+# @bubkoo/prettier-config [1.4.0](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.3.0...@bubkoo/prettier-config@1.4.0) (2023-03-03)
+
+
+### Features
+
+* add setup script ([1793a01](https://github.com/bubkoo/configs/commit/1793a011116b68250b262ab9ffa679b03c0aabcd))
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.0.0
+
 # @bubkoo/prettier-config [1.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.2.0...@bubkoo/prettier-config@1.3.0) (2023-03-02)
 
 

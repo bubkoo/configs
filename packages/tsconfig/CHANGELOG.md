@@ -1,3 +1,18 @@
+# @bubkoo/tsconfig [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.1.1...@bubkoo/tsconfig@1.2.0) (2023-03-03)
+
+
+### Features
+
+* add setup script ([1793a01](https://github.com/bubkoo/configs/commit/1793a011116b68250b262ab9ffa679b03c0aabcd))
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.0.0
+
 ## @bubkoo/tsconfig [1.1.1](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.1.0...@bubkoo/tsconfig@1.1.1) (2023-03-02)
 
 # @bubkoo/tsconfig [1.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.0.0...@bubkoo/tsconfig@1.1.0) (2022-12-14)
