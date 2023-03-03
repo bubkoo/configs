@@ -1,0 +1,50 @@
+{
+  "name": "@bubkoo/husky-config",
+  "version": "1.2.0",
+  "description": "Shared husky config for my projects",
+  "keywords": [
+    "hooks",
+    "husky",
+    "config",
+    "configuration"
+  ],
+  "homepage": "https://github.com/bubkoo/configs",
+  "bugs": {
+    "url": "https://github.com/bubkoo/configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/bubkoo/configs.git",
+    "directory": "packages/husky-config"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "bubkoo",
+    "email": "bubkoo.wy@gmail.com"
+  },
+  "type": "module",
+  "files": [
+    "hooks",
+    "scripts"
+  ],
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "dependencies": {
+    "@bubkoo/commitlint-config": "workspace:*",
+    "@bubkoo/lint-staged-config": "workspace:*",
+    "@commitlint/cli": "^17.4.4",
+    "cross-spawn": "^7.0.3",
+    "husky": "8.0.3",
+    "lint-staged": "^13.1.2",
+    "npm-run-path": "^5.1.0",
+    "pidtree": "^0.6.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "executableFiles": [
+      "hooks/*"
+    ],
+    "registry": "https://registry.npmjs.org"
+  }
+}
