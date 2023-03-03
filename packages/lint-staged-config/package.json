@@ -25,6 +25,14 @@
   "files": [
     "lint-staged.config.js"
   ],
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "prettier": "^2.8.4"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.1.0",
+    "prettier": ">=2.7.0"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

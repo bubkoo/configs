@@ -1,11 +1,8 @@
 {
-  "name": "@bubkoo/tsconfig",
-  "version": "1.1.1",
-  "description": "Shared tsconfig for my projects",
+  "name": "@bubkoo/config-util",
+  "version": "1.1.0",
   "keywords": [
-    "tsconfig",
-    "typescript",
-    "ts",
+    "util",
     "config",
     "configuration"
   ],
@@ -16,30 +13,17 @@
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/bubkoo/configs.git",
-    "directory": "packages/tsconfig"
+    "directory": "packages/util"
   },
   "license": "MIT",
   "author": {
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "main": "tsconfig.json",
+  "main": "src/index.js",
   "files": [
-    "tsconfig.json",
-    "setup.js"
+    "src"
   ],
-  "scripts": {
-    "postinstall": "node setup.js"
-  },
- "dependencies": {
-    "@bubkoo/config-util": "workspace:*"
-  },
-  "devDependencies": {
-    "typescript": "^4.9.5"
-  },
-  "peerDependencies": {
-    "typescript": ">=4.7.0"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

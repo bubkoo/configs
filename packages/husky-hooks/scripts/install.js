@@ -14,7 +14,5 @@ if (process.env.INIT_CWD !== undefined) {
 }
 
 const filename = fileURLToPath(import.meta.url)
-const dirname = path.dirname(filename)
-const hooksDir = path.resolve(dirname, '../hooks')
-console.log(hooksDir)
+const hooksDir = path.resolve(path.dirname(filename), '../hooks')
 husky.install(hooksDir)

@@ -24,10 +24,14 @@
   },
   "main": ".stylelintrc.js",
   "files": [
-    ".stylelintrc.js"
+    ".stylelintrc.js",
+    "setup.js"
   ],
-  "scripts": {},
+  "scripts": {
+    "postinstall": "node setup.js"
+  },
   "dependencies": {
+    "@bubkoo/config-util": "workspace:*",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^30.0.1",
