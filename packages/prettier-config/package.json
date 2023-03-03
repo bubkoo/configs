@@ -40,6 +40,11 @@
   "peerDependencies": {
     "prettier": ">=2.7.0"
   },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

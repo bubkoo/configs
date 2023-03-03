@@ -10,7 +10,7 @@
     "email": "bubkoo.wy@gmail.com"
   },
   "scripts": {
-    "lint": "eslint --ext .js,.json --fix",
+    "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
     "build": "pnpm -r --filter=./packages/* run build"
   },

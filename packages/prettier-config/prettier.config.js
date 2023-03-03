@@ -1,3 +1,11 @@
+const { hasAnyDeps } = require('@bubkoo/config-util')
+
+const deps = hasAnyDeps(['typescript'])
+const plugins = ['prettier-plugin-packagejson']
+if (deps.typescript) {
+  plugins.push('prettier-plugin-organize-imports')
+}
+
 module.exports = {
   semi: false,
   singleQuote: true,
@@ -7,7 +15,7 @@ module.exports = {
   useTabs: false,
   proseWrap: 'never',
   endOfLine: 'auto',
-  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson'],
+  plugins,
   overrides: [
     { files: '.eslintrc', options: { parser: 'json' } },
     { files: '.prettierrc', options: { parser: 'json' } },
