@@ -1,7 +1,7 @@
 {
-  "name": "@bubkoo/husky-config",
+  "name": "@bubkoo/husky-hooks",
   "version": "1.2.0",
-  "description": "Shared husky config for my projects",
+  "description": "Shared husky hooks for my projects",
   "keywords": [
     "hooks",
     "husky",
@@ -15,7 +15,7 @@
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/bubkoo/configs.git",
-    "directory": "packages/husky-config"
+    "directory": "packages/husky-hooks"
   },
   "license": "MIT",
   "author": {

@@ -7,7 +7,7 @@ module.exports = {
   useTabs: false,
   proseWrap: 'never',
   endOfLine: 'auto',
-  plugins: ['prettier-plugin-packagejson'],
+  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-packagejson'],
   overrides: [
     { files: '.eslintrc', options: { parser: 'json' } },
     { files: '.prettierrc', options: { parser: 'json' } },

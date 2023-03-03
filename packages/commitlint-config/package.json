@@ -25,9 +25,7 @@
   "files": [
     "commitlint.config.js"
   ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "dependencies": {
     "@commitlint/config-conventional": "^17.4.4"
   },
