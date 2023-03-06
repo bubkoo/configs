@@ -1,3 +1,11 @@
+# @bubkoo/config-util [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@1.1.0...@bubkoo/config-util@1.2.0) (2023-03-06)
+
+
+### Features
+
+* add log message ([3deb138](https://github.com/bubkoo/configs/commit/3deb1381de6a2b23054f72684c878182eebecbae))
+* skipping setup config file in CI environment ([8888f3b](https://github.com/bubkoo/configs/commit/8888f3b1161d374eebb0912359e031e6f63aae96))
+
 # @bubkoo/config-util [1.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@1.0.0...@bubkoo/config-util@1.1.0) (2023-03-06)
 
 
