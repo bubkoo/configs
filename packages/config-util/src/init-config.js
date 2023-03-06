@@ -3,6 +3,11 @@ const path = require('path')
 const readJson = require('./read-json')
 
 module.exports = function (filename, content, filenames, pkgJsonKey) {
+  if (process.env.CI !== undefined) {
+    console.log('CI environment, skipping.')
+    process.exit(0)
+  }
+
   const cwd = process.env.INIT_CWD
 
   // eslint-disable-next-line no-param-reassign
@@ -15,7 +20,7 @@ module.exports = function (filename, content, filenames, pkgJsonKey) {
     const file = path.join(cwd, filenames[i])
     if (fs.existsSync(file)) {
       console.log(`Config file "${filenames[i]}" already exists, skipping.`)
-      return
+      process.exit(0)
     }
   }
 
@@ -26,7 +31,7 @@ module.exports = function (filename, content, filenames, pkgJsonKey) {
       console.log(
         `Config with key "${pkgJsonKey}" already exists in package.json, skipping.`,
       )
-      return
+      process.exit(0)
     }
   }
 
