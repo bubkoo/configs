@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { mkfile } = require('@bubkoo/config-util')
+const { initConfig } = require('@bubkoo/config-util')
 
 const file = 'tsconfig.json'
 const content = `
@@ -9,4 +9,4 @@ const content = `
 }
 `.trim()
 
-mkfile(file, `${content}\n`)
+initConfig(file, `${content}\n`)

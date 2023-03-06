@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { mkfile } = require('@bubkoo/config-util')
+const { initConfig } = require('@bubkoo/config-util')
 
 const file = '.stylelintrc'
 const content = `
@@ -9,4 +9,18 @@ const content = `
 }
 `.trim()
 
-mkfile(file, `${content}\n`)
+initConfig(
+  file,
+  `${content}\n`,
+  [
+    file,
+    `${file}.js`,
+    `${file}.cjs`,
+    `${file}.json`,
+    `${file}.yaml`,
+    `${file}.yml`,
+    `stylelint.config.js`,
+    `stylelint.config.cjs`,
+  ],
+  `stylelint`,
+)

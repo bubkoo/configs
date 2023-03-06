@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { mkfile } = require('@bubkoo/config-util')
+const { initConfig } = require('@bubkoo/config-util')
 
 const configFile = '.eslintrc'
 const ignoreFile = '.eslintignore'
@@ -17,5 +17,17 @@ const ignoreContent = [
   'dist/**',
 ].join('\n')
 
-mkfile(configFile, `${configContent}\n`)
-mkfile(ignoreFile, `${ignoreContent}\n`)
+initConfig(ignoreFile, `${ignoreContent}\n`)
+initConfig(
+  configFile,
+  `${configContent}\n`,
+  [
+    configFile,
+    `${configFile}.js`,
+    `${configFile}.cjs`,
+    `${configFile}.json`,
+    `${configFile}.yaml`,
+    `${configFile}.yml`,
+  ],
+  'eslintConfig',
+)
