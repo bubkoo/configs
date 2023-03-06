@@ -10,13 +10,14 @@
     "email": "bubkoo.wy@gmail.com"
   },
   "scripts": {
+    "build": "pnpm -r --filter=./packages/* run build",
     "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
-    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
-    "build": "pnpm -r --filter=./packages/* run build"
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
   },
-  "devDependencies": {
+  "dependencies": {
     "@bubkoo/husky-hooks": "workspace:*",
     "@semantic-release-monorepo/cli": "^2.1.5",
+    "eslint": "^8.35.0",
     "is-ci": "^3.0.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.8.4",
@@ -26,5 +27,13 @@
   "packageManager": "pnpm@7.1.9",
   "engines": {
     "node": ">=14.6.0"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "eslint",
+        "typescript"
+      ]
+    }
   }
 }
