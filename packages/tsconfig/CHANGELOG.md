@@ -1,3 +1,18 @@
+## @bubkoo/tsconfig [1.2.1](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.2.0...@bubkoo/tsconfig@1.2.1) (2023-03-06)
+
+
+### Bug Fixes
+
+* should check any existing configs before create manual config files ([452c7bc](https://github.com/bubkoo/configs/commit/452c7bcbba7489a22cbfb099200aa3afea808213))
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.1.0
+
 # @bubkoo/tsconfig [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.1.1...@bubkoo/tsconfig@1.2.0) (2023-03-03)
 
 

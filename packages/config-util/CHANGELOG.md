@@ -1,3 +1,10 @@
+# @bubkoo/config-util [1.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@1.0.0...@bubkoo/config-util@1.1.0) (2023-03-06)
+
+
+### Features
+
+* add initConfig method ([0ade84b](https://github.com/bubkoo/configs/commit/0ade84bccd276801134ba7d551a29529bb4c10ee))
+
 # @bubkoo/config-util 1.0.0 (2023-03-03)
 
 

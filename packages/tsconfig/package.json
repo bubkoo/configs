@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/tsconfig",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Shared tsconfig for my projects",
   "keywords": [
     "tsconfig",
@@ -32,7 +32,7 @@
     "postinstall": "node setup.js"
   },
   "dependencies": {
-    "@bubkoo/config-util": "1.0.0"
+    "@bubkoo/config-util": "1.1.0"
   },
   "devDependencies": {
     "typescript": "^4.9.5"
