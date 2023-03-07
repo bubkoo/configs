@@ -25,13 +25,17 @@
   "files": [
     "lint-staged.config.js"
   ],
-  "devDependencies": {
-    "eslint": "^8.35.0",
-    "prettier": "^2.8.4"
+  "dependencies": {
+    "@bubkoo/config-util": "1.1.0"
   },
   "peerDependencies": {
     "eslint": ">=8.1.0",
     "prettier": ">=2.7.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    }
   },
   "publishConfig": {
     "access": "public",

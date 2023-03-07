@@ -25,7 +25,6 @@
   "files": [
     "commitlint.config.js"
   ],
-  "scripts": {},
   "dependencies": {
     "@commitlint/config-conventional": "^17.4.4"
   },

@@ -30,6 +30,9 @@
   },
   "pnpm": {
     "peerDependencyRules": {
+      "allowedVersions": {
+        "stylelint": "15"
+      },
       "ignoreMissing": [
         "eslint",
         "prettier",
