@@ -1,3 +1,10 @@
+# @bubkoo/prettier-config [1.5.0](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.4.2...@bubkoo/prettier-config@1.5.0) (2023-03-07)
+
+
+### Features
+
+* set peerDependencies optional ([a3aad7e](https://github.com/bubkoo/configs/commit/a3aad7eca9b2ab0c0e5a60dcbfad48b08f4adc3d))
+
 ## @bubkoo/prettier-config [1.4.2](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.4.1...@bubkoo/prettier-config@1.4.2) (2023-03-06)
 
 

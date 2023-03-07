@@ -1,3 +1,10 @@
+# @bubkoo/commitlint-config [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/commitlint-config@1.1.2...@bubkoo/commitlint-config@1.2.0) (2023-03-07)
+
+
+### Features
+
+* set peerDependencies optional ([a3aad7e](https://github.com/bubkoo/configs/commit/a3aad7eca9b2ab0c0e5a60dcbfad48b08f4adc3d))
+
 ## @bubkoo/commitlint-config [1.1.2](https://github.com/bubkoo/configs/compare/@bubkoo/commitlint-config@1.1.1...@bubkoo/commitlint-config@1.1.2) (2023-03-03)
 
 ## @bubkoo/commitlint-config [1.1.1](https://github.com/bubkoo/configs/compare/@bubkoo/commitlint-config@1.1.0...@bubkoo/commitlint-config@1.1.1) (2023-03-02)

@@ -1,3 +1,10 @@
+# @bubkoo/lint-staged-config [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.1.0...@bubkoo/lint-staged-config@1.2.0) (2023-03-07)
+
+
+### Features
+
+* set peerDependencies optional ([a3aad7e](https://github.com/bubkoo/configs/commit/a3aad7eca9b2ab0c0e5a60dcbfad48b08f4adc3d))
+
 # @bubkoo/lint-staged-config [1.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.0.0...@bubkoo/lint-staged-config@1.1.0) (2023-03-03)
 
 

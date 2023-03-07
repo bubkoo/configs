@@ -1,3 +1,10 @@
+# @bubkoo/eslint-config [2.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.0.2...@bubkoo/eslint-config@2.1.0) (2023-03-07)
+
+
+### Features
+
+* set peerDependencies optional ([a3aad7e](https://github.com/bubkoo/configs/commit/a3aad7eca9b2ab0c0e5a60dcbfad48b08f4adc3d))
+
 ## @bubkoo/eslint-config [2.0.2](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.0.1...@bubkoo/eslint-config@2.0.2) (2023-03-06)
 
 
