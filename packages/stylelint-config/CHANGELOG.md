@@ -1,3 +1,13 @@
+## @bubkoo/stylelint-config [1.3.3](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.3.2...@bubkoo/stylelint-config@1.3.3) (2023-03-08)
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.3.0
+
 ## @bubkoo/stylelint-config [1.3.2](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.3.1...@bubkoo/stylelint-config@1.3.2) (2023-03-06)
 
 

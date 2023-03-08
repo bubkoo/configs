@@ -1,3 +1,13 @@
+## @bubkoo/prettier-config [1.5.1](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.5.0...@bubkoo/prettier-config@1.5.1) (2023-03-08)
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.3.0
+
 # @bubkoo/prettier-config [1.5.0](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.4.2...@bubkoo/prettier-config@1.5.0) (2023-03-07)
 
 

@@ -1,3 +1,13 @@
+## @bubkoo/lint-staged-config [1.2.1](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.2.0...@bubkoo/lint-staged-config@1.2.1) (2023-03-08)
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.3.0
+
 # @bubkoo/lint-staged-config [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.1.0...@bubkoo/lint-staged-config@1.2.0) (2023-03-07)
 
 

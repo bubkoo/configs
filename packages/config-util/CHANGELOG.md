@@ -1,3 +1,15 @@
+# @bubkoo/config-util [1.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@1.2.0...@bubkoo/config-util@1.3.0) (2023-03-08)
+
+
+### Bug Fixes
+
+* should build config-util in ci env ([1f5e799](https://github.com/bubkoo/configs/commit/1f5e7993bcf8eb87fe9583b697c8f4d8844682e1))
+
+
+### Features
+
+* add isRepoRoot method ([edb2d73](https://github.com/bubkoo/configs/commit/edb2d7318af74006296b4ea32cee09e9c0fc93b4))
+
 # @bubkoo/config-util [1.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@1.1.0...@bubkoo/config-util@1.2.0) (2023-03-06)
 
 

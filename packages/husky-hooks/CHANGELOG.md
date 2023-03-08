@@ -1,3 +1,14 @@
+## @bubkoo/husky-hooks [1.0.3](https://github.com/bubkoo/configs/compare/@bubkoo/husky-hooks@1.0.2...@bubkoo/husky-hooks@1.0.3) (2023-03-08)
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/commitlint-config:** upgraded to 1.2.1
+* **@bubkoo/lint-staged-config:** upgraded to 1.2.1
+
 ## @bubkoo/husky-hooks [1.0.2](https://github.com/bubkoo/configs/compare/@bubkoo/husky-hooks@1.0.1...@bubkoo/husky-hooks@1.0.2) (2023-03-07)
 
 

@@ -1,3 +1,13 @@
+## @bubkoo/eslint-config [2.1.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.1.0...@bubkoo/eslint-config@2.1.1) (2023-03-08)
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.3.0
+
 # @bubkoo/eslint-config [2.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.0.2...@bubkoo/eslint-config@2.1.0) (2023-03-07)
 
 

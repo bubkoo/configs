@@ -1,3 +1,13 @@
+## @bubkoo/tsconfig [1.2.3](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.2.2...@bubkoo/tsconfig@1.2.3) (2023-03-08)
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 1.3.0
+
 ## @bubkoo/tsconfig [1.2.2](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.2.1...@bubkoo/tsconfig@1.2.2) (2023-03-06)
 
 
