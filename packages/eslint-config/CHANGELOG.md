@@ -1,3 +1,15 @@
+# @bubkoo/eslint-config [2.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.1.3...@bubkoo/eslint-config@2.2.0) (2023-03-08)
+
+
+### Bug Fixes
+
+* fix conflicting with `unicorn/better-regex` ([0d5ae9c](https://github.com/bubkoo/configs/commit/0d5ae9cc640fbe960e14f01e8da7e719daa9e66b))
+
+
+### Features
+
+* turn off 'unicorn/no-null' rule ([d369bd8](https://github.com/bubkoo/configs/commit/d369bd88e6e3d2865d6a761b9f1879b832ae4dac))
+
 ## @bubkoo/eslint-config [2.1.3](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.1.2...@bubkoo/eslint-config@2.1.3) (2023-03-08)
 
 ## @bubkoo/eslint-config [2.1.2](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.1.1...@bubkoo/eslint-config@2.1.2) (2023-03-08)
