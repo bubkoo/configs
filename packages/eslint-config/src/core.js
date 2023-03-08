@@ -14,7 +14,6 @@ module.exports = {
     'airbnb-base',
     'eslint:recommended',
     './plugins/comments',
-    './plugins/flowtype',
     './plugins/import',
     './plugins/json',
     './plugins/node',
