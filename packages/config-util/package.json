@@ -20,10 +20,28 @@
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "main": "src/index.js",
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "src"
+    "es",
+    "lib"
   ],
+  "scripts": {
+    "build": "run-s clean build:esm build:cjs",
+    "build:cjs": "tsc --module commonjs --target es6 --outDir ./lib",
+    "build:esm": "tsc --module esnext --target es6 --outDir ./es",
+    "build:watch": "run-s build:watch:esm",
+    "build:watch:cjs": "run-s 'build:cjs -- -w'",
+    "build:watch:esm": "run-s 'build:esm -- -w'",
+    "clean": "rimraf es lib",
+    "prepare": "is-ci || run-p build",
+    "prepublish": "run-s build"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

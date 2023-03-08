@@ -1,8 +1,8 @@
-const fs = require('fs')
-const path = require('path')
-const readJson = require('./read-json')
+import fs from 'node:fs'
+import path from 'node:path'
+import { readJson } from './read-json'
 
-module.exports = function (dir) {
+export function isMonorepoRoot(dir: string) {
   const lerna = path.join(dir, 'lerna.json')
   if (fs.existsSync(lerna)) {
     return true
@@ -13,8 +13,8 @@ module.exports = function (dir) {
     return true
   }
 
-  const pkgPath = path.join(dir, 'package.json')
-  const pkg = readJson(pkgPath)
+  const packagePath = path.join(dir, 'package.json')
+  const pkg = readJson<any>(packagePath)
   if (pkg.workspaces || pkg.bolt) {
     return true
   }

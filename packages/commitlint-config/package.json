@@ -28,6 +28,9 @@
   "dependencies": {
     "@commitlint/config-conventional": "^17.4.4"
   },
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"

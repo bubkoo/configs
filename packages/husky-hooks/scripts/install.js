@@ -1,10 +1,9 @@
-#!/usr/bin/env node
-
 import husky from 'husky'
-import path from 'path'
-import { fileURLToPath } from 'url'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 
 if (process.env.CI !== undefined || process.env.NODE_ENV === 'production') {
+  // eslint-disable-next-line no-console
   console.log('CI or production environment, skipping husky installation.')
   process.exit(0)
 }

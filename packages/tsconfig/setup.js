@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const { initConfig } = require('@bubkoo/config-util')
 
 const file = 'tsconfig.json'

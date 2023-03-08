@@ -1,6 +1,4 @@
-#!/usr/bin/env node
-
-const { initConfig } = require('../config-util/src')
+const { initConfig } = require('@bubkoo/config-util')
 
 const filename = '.prettierrc'
 const configFile = `${filename}.js`

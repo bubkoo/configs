@@ -1,12 +1,12 @@
 const { hasAnyDeps } = require('@bubkoo/config-util')
 
-const modules = ['./common.js']
+const modules = ['./core.js']
 const deps = hasAnyDeps(['react', 'typescript', 'jest', 'prettier'])
-Object.keys(deps).forEach((key) => {
+for (const key of Object.keys(deps)) {
   if (deps[key]) {
-    modules.push(`./${key}.js`)
+    modules.push(`./optional/${key}.js`)
   }
-})
+}
 
 module.exports = {
   extends: modules,

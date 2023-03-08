@@ -1,7 +1,7 @@
-const fs = require('fs')
-const path = require('path')
+import fs from 'node:fs'
+import path from 'node:path'
 
-module.exports = function (dir) {
+export function isRepoRoot(dir: string) {
   // git/gitlab
   const gitdir = path.join(dir, '.git')
   if (fs.existsSync(gitdir)) {
@@ -15,8 +15,8 @@ module.exports = function (dir) {
   }
 
   // npm
-  const pkgJsonLockPath = path.join(dir, 'package-lock.json')
-  if (fs.existsSync(pkgJsonLockPath)) {
+  const packageJsonLockPath = path.join(dir, 'package-lock.json')
+  if (fs.existsSync(packageJsonLockPath)) {
     return true
   }
 
@@ -31,4 +31,6 @@ module.exports = function (dir) {
   if (fs.existsSync(yarnLockPath)) {
     return true
   }
+
+  return false
 }

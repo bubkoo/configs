@@ -20,11 +20,13 @@ module.exports = function ({
 }) {
   if (visualize) {
     const outputs = Array.isArray(output) ? output : [output]
-    outputs.forEach(({ file }) => {
+
+    for (const { file } of outputs) {
       const filename = `${file}.html`
       plugins.push(visualizer({ sourcemap: true, filename }))
+      // eslint-disable-next-line no-console
       console.log(`Bundle visualization generated in '${filename}'`)
-    })
+    }
   }
 
   return {

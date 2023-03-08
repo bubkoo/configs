@@ -1,9 +1,9 @@
 import crossSpawn from 'cross-spawn'
-import { createRequire } from 'module'
+import { createRequire } from 'node:module'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { npmRunPathEnv } from 'npm-run-path'
-import path from 'path'
 import pidtree from 'pidtree'
-import { fileURLToPath } from 'url'
 
 /**
  * Kills the new process and its sub processes.
@@ -14,11 +14,10 @@ function kill_posix() {
       return
     }
 
-    // eslint-disable-next-line no-restricted-syntax
     for (const pid of pids) {
       try {
         process.kill(pid)
-      } catch (e) {
+      } catch {
         // ignore
       }
     }

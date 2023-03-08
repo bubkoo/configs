@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const { initConfig } = require('@bubkoo/config-util')
 
 const configFile = '.eslintrc'
@@ -12,9 +10,9 @@ const configContent = `
 const ignoreContent = [
   'node_modules',
   '*.min.js',
-  'es/**',
-  'lib/**',
-  'dist/**',
+  '**/es/**',
+  '**/lib/**',
+  '**/dist/**',
 ].join('\n')
 
 initConfig(ignoreFile, `${ignoreContent}\n`)

@@ -1,6 +1,6 @@
 const { hasAnyDeps } = require('@bubkoo/config-util')
 
-const deps = hasAnyDeps(['eslint'])
+const deps = hasAnyDeps(['prettier', 'eslint'])
 const handlers = ['prettier --write']
 if (deps.eslint) {
   handlers.push(
