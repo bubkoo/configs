@@ -11,6 +11,9 @@
   },
   "scripts": {
     "build": "pnpm -r --filter=./packages/* run build",
+    "clean": "run-s clean:build clean:modules",
+    "clean:build": "pnpm -r --if-present --parallel --filter=./packages/* run clean",
+    "clean:modules": "pnpm -r --parallel exec rimraf node_modules && rimraf node_modules",
     "lint": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'"
   },
