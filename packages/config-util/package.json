@@ -35,7 +35,7 @@
     "build:watch:cjs": "run-s 'build:cjs -- -w'",
     "build:watch:esm": "run-s 'build:esm -- -w'",
     "clean": "rimraf es lib",
-    "prepare": "is-ci || run-p build",
+    "prepare": "run-p build",
     "prepublish": "run-s build"
   },
   "devDependencies": {},
