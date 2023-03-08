@@ -1,2 +1,5 @@
+exports.readJson = require('./read-json')
 exports.initConfig = require('./init-config')
 exports.hasAnyDeps = require('./has-any-deps')
+exports.isRepoRoot = require('./is-repo-root')
+exports.isMorepoRoot = require('./is-monorepo-root')
