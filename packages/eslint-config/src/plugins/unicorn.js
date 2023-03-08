@@ -6,6 +6,7 @@ module.exports = {
     'unicorn/prefer-module': 'off',
     'unicorn/no-process-exit': 'off',
     'unicorn/no-for-loop': 'off',
+    'unicorn/no-null': 'off',
     'unicorn/prevent-abbreviations': [
       'error',
       {
