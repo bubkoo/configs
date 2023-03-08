@@ -1,3 +1,10 @@
+## @bubkoo/eslint-config [2.1.2](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.1.1...@bubkoo/eslint-config@2.1.2) (2023-03-08)
+
+
+### Bug Fixes
+
+* add missing dependencies ([3f8d76e](https://github.com/bubkoo/configs/commit/3f8d76ef60e6496b23f09f39647b493805abec12))
+
 ## @bubkoo/eslint-config [2.1.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.1.0...@bubkoo/eslint-config@2.1.1) (2023-03-08)
 
 
