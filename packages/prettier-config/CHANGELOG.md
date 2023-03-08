@@ -1,3 +1,5 @@
+## @bubkoo/prettier-config [1.5.2](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.5.1...@bubkoo/prettier-config@1.5.2) (2023-03-08)
+
 ## @bubkoo/prettier-config [1.5.1](https://github.com/bubkoo/configs/compare/@bubkoo/prettier-config@1.5.0...@bubkoo/prettier-config@1.5.1) (2023-03-08)
 
 
