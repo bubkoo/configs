@@ -1,9 +1,9 @@
 const { initConfig } = require('@bubkoo/config-util')
 
-const filename = '.prettierrc'
-const configFile = `${filename}.js`
+const configFile = '.prettierrc'
 const ignoreFile = '.prettierignore'
-const configContent = `module.exports = require('@bubkoo/prettier-config')`
+// @see https://prettier.io/docs/en/configuration.html#sharing-configurations
+const configContent = `"@bubkoo/prettier-config"`
 const ignoreContent = [
   '*.md',
   '*.sh',
@@ -26,14 +26,14 @@ initConfig(
   configFile,
   `${configContent}\n`,
   [
-    filename,
-    `${filename}.js`,
-    `${filename}.cjs`,
-    `${filename}.json`,
-    `${filename}.json5`,
-    `${filename}.yaml`,
-    `${filename}.yml`,
-    `${filename}.toml`,
+    configFile,
+    `${configFile}.js`,
+    `${configFile}.cjs`,
+    `${configFile}.json`,
+    `${configFile}.json5`,
+    `${configFile}.yaml`,
+    `${configFile}.yml`,
+    `${configFile}.toml`,
     'prettier.config.js',
     'prettier.config.cjs',
   ],
