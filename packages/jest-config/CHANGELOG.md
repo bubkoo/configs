@@ -1,3 +1,10 @@
+## @bubkoo/jest-config [1.1.3](https://github.com/bubkoo/configs/compare/@bubkoo/jest-config@1.1.2...@bubkoo/jest-config@1.1.3) (2023-03-10)
+
+
+### Bug Fixes
+
+* remove useless scripts ([8d7ab96](https://github.com/bubkoo/configs/commit/8d7ab962cc7e2efeb7364dba23489d06299f9a05))
+
 ## @bubkoo/jest-config [1.1.2](https://github.com/bubkoo/configs/compare/@bubkoo/jest-config@1.1.1...@bubkoo/jest-config@1.1.2) (2023-03-08)
 
 ## @bubkoo/jest-config [1.1.1](https://github.com/bubkoo/configs/compare/@bubkoo/jest-config@1.1.0...@bubkoo/jest-config@1.1.1) (2023-03-02)

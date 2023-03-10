@@ -1,3 +1,10 @@
+# @bubkoo/eslint-config [2.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.2.0...@bubkoo/eslint-config@2.3.0) (2023-03-10)
+
+
+### Features
+
+* remove eslint-plugin-n ([0aa3369](https://github.com/bubkoo/configs/commit/0aa336994fe72c59b6fa5f88eb5e7e983d518634))
+
 # @bubkoo/eslint-config [2.2.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.1.3...@bubkoo/eslint-config@2.2.0) (2023-03-08)
 
 

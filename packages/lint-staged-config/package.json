@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/lint-staged-config",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Shared lint-staged config for my projects",
   "keywords": [
     "lint-staged",

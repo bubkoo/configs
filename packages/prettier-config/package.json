@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/prettier-config",
-  "version": "1.5.1",
+  "version": "1.5.3",
   "description": "Shared prettier config for my projects",
   "keywords": [
     "prettier",

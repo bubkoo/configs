@@ -1,3 +1,5 @@
+## @bubkoo/tsconfig [1.2.4](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.2.3...@bubkoo/tsconfig@1.2.4) (2023-03-10)
+
 ## @bubkoo/tsconfig [1.2.3](https://github.com/bubkoo/configs/compare/@bubkoo/tsconfig@1.2.2...@bubkoo/tsconfig@1.2.3) (2023-03-08)
 
 

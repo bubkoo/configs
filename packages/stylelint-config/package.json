@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/stylelint-config",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "Shared stylelint config for my projects",
   "keywords": [
     "stylelint",

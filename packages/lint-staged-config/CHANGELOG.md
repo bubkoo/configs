@@ -1,3 +1,5 @@
+## @bubkoo/lint-staged-config [1.2.2](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.2.1...@bubkoo/lint-staged-config@1.2.2) (2023-03-10)
+
 ## @bubkoo/lint-staged-config [1.2.1](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.2.0...@bubkoo/lint-staged-config@1.2.1) (2023-03-08)
 
 
