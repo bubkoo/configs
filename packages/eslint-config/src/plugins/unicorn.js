@@ -7,6 +7,7 @@ module.exports = {
     'unicorn/no-process-exit': 'off',
     'unicorn/no-for-loop': 'off',
     'unicorn/no-null': 'off',
+    'unicorn/no-array-for-each': 'off',
     'unicorn/prevent-abbreviations': [
       'error',
       {
