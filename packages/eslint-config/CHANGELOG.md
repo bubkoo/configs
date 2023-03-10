@@ -1,3 +1,10 @@
+# @bubkoo/eslint-config [2.4.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.3.1...@bubkoo/eslint-config@2.4.0) (2023-03-10)
+
+
+### Features
+
+* turn off some rules ([8a73a68](https://github.com/bubkoo/configs/commit/8a73a689bc40654d73670cc3866bab6f02ecc1b9))
+
 ## @bubkoo/eslint-config [2.3.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.3.0...@bubkoo/eslint-config@2.3.1) (2023-03-10)
 
 # @bubkoo/eslint-config [2.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@2.2.0...@bubkoo/eslint-config@2.3.0) (2023-03-10)
