@@ -1,4 +1,4 @@
-name: Release
+name: 🚀　Release
 on:
   push:
     branches:
@@ -7,28 +7,10 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: bubkoo/reusable-workflows/.github/actions/semantic-release-monorepo@master
         with:
-          persist-credentials: false
-      - uses: pnpm/action-setup@v2.2.2
-      - name: Set node version to 16.x
-        uses: actions/setup-node@v3
-        with:
-          node-version: 16.x
-          registry-url: https://registry.npmjs.org/
-          cache: pnpm
-
-      - name: Install
-        run: |
-          pnpm install --no-frozen-lockfile
-
-      - name: Build
-        run: pnpm run build
-
-      - name: Release
-        run: pnpm srm --combine-commits
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.PAT }}
-
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.PRIVATE_KEY }}
+          npm-token: ${{ secrets.NPM_TOKEN }}
+          test-command: test
+          build-command: build
