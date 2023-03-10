@@ -38,7 +38,7 @@
     "postinstall": "node setup.js"
   },
   "dependencies": {
-    "@bubkoo/config-util": "1.3.0",
+    "@bubkoo/config-util": "^1.3.0",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-rational-order": "^0.1.2",
     "stylelint-config-standard": "^30.0.1",
