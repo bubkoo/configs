@@ -21,9 +21,9 @@
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "main": "commitlint.config.js",
+  "main": "index.js",
   "files": [
-    "commitlint.config.js"
+    "index.js"
   ],
   "dependencies": {
     "@commitlint/config-conventional": "^17.4.4"

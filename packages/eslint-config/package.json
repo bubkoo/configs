@@ -4,7 +4,13 @@
   "description": "Shared eslint config for my projects",
   "keywords": [
     "eslint",
-    "eslintrc",
+    ".eslintrc",
+    ".eslintrc.js",
+    ".eslintrc.cjs",
+    ".eslintrc.json",
+    ".eslintrc.yml",
+    ".eslintrc.yaml",
+    "eslintConfig",
     "config",
     "configuration"
   ],
@@ -42,7 +48,7 @@
     "eslint-plugin-jest": "^27.2.1",
     "eslint-plugin-json": "^3.1.0",
     "eslint-plugin-json-format": "^2.0.1",
-    "eslint-plugin-json-schema-validator": "^4.0.3",
+    "eslint-plugin-json-schema-validator": "^4.1.0",
     "eslint-plugin-jsonc": "^2.6.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-n": "^15.6.1",

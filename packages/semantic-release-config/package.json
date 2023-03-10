@@ -32,17 +32,17 @@
   },
   "exports": {
     ".": {
-      "require": "./release.config.js",
-      "default": "./release.config.js"
+      "require": "./index.js",
+      "default": "./index.js"
     },
     "./config": {
       "require": "./config.js",
       "default": "./config.js"
     }
   },
-  "main": "release.config.js",
+  "main": "index.js",
   "files": [
-    "release.config.js",
+    "index.js",
     "config.js"
   ],
   "dependencies": {

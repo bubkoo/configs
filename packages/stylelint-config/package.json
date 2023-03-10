@@ -4,7 +4,14 @@
   "description": "Shared stylelint config for my projects",
   "keywords": [
     "stylelint",
-    "stylelintrc",
+    ".stylelintrc",
+    ".stylelintrc.js",
+    ".stylelintrc.cjs",
+    ".stylelintrc.json",
+    ".stylelintrc.yaml",
+    ".stylelintrc.yml",
+    "stylelint.config.js",
+    "stylelint.config.cjs",
     "config",
     "configuration"
   ],
@@ -22,9 +29,9 @@
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "main": ".stylelintrc.js",
+  "main": "index.js",
   "files": [
-    ".stylelintrc.js",
+    "index.js",
     "setup.js"
   ],
   "scripts": {

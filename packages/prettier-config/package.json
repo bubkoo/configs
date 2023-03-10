@@ -4,6 +4,17 @@
   "description": "Shared prettier config for my projects",
   "keywords": [
     "prettier",
+    ".prettierrc",
+    ".prettierrc.js",
+    ".prettierrc.cjs",
+    ".prettierrc.json",
+    ".prettierrc.json5",
+    ".prettierrc.yml",
+    ".prettierrc.yaml",
+    ".prettierrc.toml",
+    "prettier.config.js",
+    "prettier.config.cjs",
+    "prettier-config",
     "config",
     "configuration"
   ],
@@ -21,9 +32,9 @@
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "main": "prettier.config.js",
+  "main": "index.js",
   "files": [
-    "prettier.config.js",
+    "index.js",
     "setup.js"
   ],
   "scripts": {

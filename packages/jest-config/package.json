@@ -21,9 +21,9 @@
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "main": "jest.config.js",
+  "main": "index.js",
   "files": [
-    "jest.config.js"
+    "index.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

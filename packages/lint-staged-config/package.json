@@ -21,9 +21,9 @@
     "name": "bubkoo",
     "email": "bubkoo.wy@gmail.com"
   },
-  "main": "lint-staged.config.js",
+  "main": "index.js",
   "files": [
-    "lint-staged.config.js"
+    "index.js"
   ],
   "dependencies": {
     "@bubkoo/config-util": "1.3.0"
