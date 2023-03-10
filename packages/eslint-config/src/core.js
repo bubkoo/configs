@@ -16,7 +16,6 @@ module.exports = {
     './plugins/comments',
     './plugins/import',
     './plugins/json',
-    './plugins/node',
     './plugins/promise',
     './plugins/regexp',
     './plugins/unicorn',
