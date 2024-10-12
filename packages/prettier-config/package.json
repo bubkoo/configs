@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/prettier-config",
-  "version": "1.5.3",
+  "version": "2.0.0",
   "description": "Shared prettier config for my projects",
   "keywords": [
     "prettier",
@@ -41,7 +41,7 @@
     "postinstall": "node setup.js"
   },
   "dependencies": {
-    "@bubkoo/config-util": "^1.3.0",
+    "@bubkoo/config-util": "^2.0.0",
     "prettier-plugin-organize-imports": "^4.1.0",
     "prettier-plugin-packagejson": "^2.5.3"
   },

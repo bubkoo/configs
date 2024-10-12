@@ -1,3 +1,23 @@
+# @bubkoo/lint-staged-config [2.0.0](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.2.2...@bubkoo/lint-staged-config@2.0.0) (2024-10-12)
+
+
+### Features
+
+* update tools to the latest version ([#1](https://github.com/bubkoo/configs/issues/1)) ([76f5421](https://github.com/bubkoo/configs/commit/76f542161e064ff8ef8edbfc5edbb81c35774663))
+
+
+### BREAKING CHANGES
+
+* use eslint 9.x
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 2.0.0
+
 ## @bubkoo/lint-staged-config [1.2.2](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.2.1...@bubkoo/lint-staged-config@1.2.2) (2023-03-10)
 
 ## @bubkoo/lint-staged-config [1.2.1](https://github.com/bubkoo/configs/compare/@bubkoo/lint-staged-config@1.2.0...@bubkoo/lint-staged-config@1.2.1) (2023-03-08)

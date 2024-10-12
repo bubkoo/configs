@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/lint-staged-config",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "description": "Shared lint-staged config for my projects",
   "keywords": [
     "lint-staged",
@@ -26,7 +26,7 @@
     "index.js"
   ],
   "dependencies": {
-    "@bubkoo/config-util": "^1.3.0"
+    "@bubkoo/config-util": "^2.0.0"
   },
   "peerDependencies": {
     "eslint": ">=9.12.0",

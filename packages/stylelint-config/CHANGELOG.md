@@ -1,3 +1,23 @@
+# @bubkoo/stylelint-config [2.0.0](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.3.4...@bubkoo/stylelint-config@2.0.0) (2024-10-12)
+
+
+### Features
+
+* update tools to the latest version ([#1](https://github.com/bubkoo/configs/issues/1)) ([76f5421](https://github.com/bubkoo/configs/commit/76f542161e064ff8ef8edbfc5edbb81c35774663))
+
+
+### BREAKING CHANGES
+
+* use eslint 9.x
+
+
+
+
+
+### Dependencies
+
+* **@bubkoo/config-util:** upgraded to 2.0.0
+
 ## @bubkoo/stylelint-config [1.3.4](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.3.3...@bubkoo/stylelint-config@1.3.4) (2023-03-10)
 
 ## @bubkoo/stylelint-config [1.3.3](https://github.com/bubkoo/configs/compare/@bubkoo/stylelint-config@1.3.2...@bubkoo/stylelint-config@1.3.3) (2023-03-08)

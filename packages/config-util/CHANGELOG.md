@@ -1,3 +1,15 @@
+# @bubkoo/config-util [2.0.0](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@1.3.0...@bubkoo/config-util@2.0.0) (2024-10-12)
+
+
+### Features
+
+* update tools to the latest version ([#1](https://github.com/bubkoo/configs/issues/1)) ([76f5421](https://github.com/bubkoo/configs/commit/76f542161e064ff8ef8edbfc5edbb81c35774663))
+
+
+### BREAKING CHANGES
+
+* use eslint 9.x
+
 # @bubkoo/config-util [1.3.0](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@1.2.0...@bubkoo/config-util@1.3.0) (2023-03-08)
 
 

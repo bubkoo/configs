@@ -1,6 +1,6 @@
 {
   "name": "@bubkoo/husky-hooks",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Shared husky hooks for my projects",
   "keywords": [
     "hooks",
@@ -31,8 +31,8 @@
     "postinstall": "node scripts/install.js"
   },
   "dependencies": {
-    "@bubkoo/commitlint-config": "^1.2.1",
-    "@bubkoo/lint-staged-config": "^1.2.1",
+    "@bubkoo/commitlint-config": "^2.0.0",
+    "@bubkoo/lint-staged-config": "^2.0.0",
     "@commitlint/cli": "^19.5.0",
     "cross-spawn": "^7.0.3",
     "husky": "^9.1.6",

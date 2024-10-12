@@ -1,3 +1,15 @@
+# @bubkoo/semantic-release-config [2.0.0](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.8.4...@bubkoo/semantic-release-config@2.0.0) (2024-10-12)
+
+
+### Features
+
+* update tools to the latest version ([#1](https://github.com/bubkoo/configs/issues/1)) ([76f5421](https://github.com/bubkoo/configs/commit/76f542161e064ff8ef8edbfc5edbb81c35774663))
+
+
+### BREAKING CHANGES
+
+* use eslint 9.x
+
 ## @bubkoo/semantic-release-config [1.8.4](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.8.3...@bubkoo/semantic-release-config@1.8.4) (2023-03-10)
 
 ## @bubkoo/semantic-release-config [1.8.3](https://github.com/bubkoo/configs/compare/@bubkoo/semantic-release-config@1.8.2...@bubkoo/semantic-release-config@1.8.3) (2023-03-08)
