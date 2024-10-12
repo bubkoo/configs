@@ -1,3 +1,10 @@
+## @bubkoo/eslint-config [3.0.2](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@3.0.1...@bubkoo/eslint-config@3.0.2) (2024-10-12)
+
+
+### Bug Fixes
+
+* fix setup script ([69dc286](https://github.com/bubkoo/configs/commit/69dc286436a64046182b4ca0728ffc45390d6e2a))
+
 ## @bubkoo/eslint-config [3.0.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@3.0.0...@bubkoo/eslint-config@3.0.1) (2024-10-12)
 
 
