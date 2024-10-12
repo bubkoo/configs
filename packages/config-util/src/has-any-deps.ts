@@ -13,7 +13,7 @@ function anyDeps(modules: string[], packageJsonPath: string) {
     ? Object.keys(packageJson.devDependencies)
     : []
   const allDeps = new Set([...deps, ...devDeps])
-  return modules.map((dep) => allDeps.has(dep))
+  return modules.map(dep => allDeps.has(dep))
 }
 
 export function hasAnyDeps(modules: string[]) {
@@ -31,7 +31,7 @@ export function hasAnyDeps(modules: string[]) {
         }
       }
 
-      if (arr.every((item) => item === true)) {
+      if (arr.every(item => item === true)) {
         break
       }
 

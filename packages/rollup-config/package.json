@@ -27,28 +27,28 @@
     "index.js"
   ],
   "dependencies": {
-    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-commonjs": "^28.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "@rollup/plugin-replace": "^5.0.2",
+    "@rollup/plugin-replace": "^6.0.1",
     "@rollup/plugin-terser": "^0.4.0",
-    "@rollup/plugin-typescript": "^11.0.0",
+    "@rollup/plugin-typescript": "^12.1.0",
     "rollup-plugin-auto-external": "^2.0.0",
     "rollup-plugin-filesize": "^10.0.0",
     "rollup-plugin-progress": "^1.1.2",
     "rollup-plugin-visualizer": "^5.9.0"
   },
   "devDependencies": {
-    "rollup": "^3.19.0",
+    "rollup": "^4.24.0",
     "tslib": "^2.5.0",
-    "typescript": "^4.9.5"
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
     "rollup": ">=2.56.0",
     "tslib": ">=2.4.0",
-    "typescript": "^4.7.0"
+    "typescript": "^5.5.4"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
   "publishConfig": {
     "access": "public",

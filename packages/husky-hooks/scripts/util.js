@@ -56,7 +56,7 @@ export function spawn(command, args, options) {
     ...options,
   })
   child.kill = kill
-  child.on('close', (code) => process.exit(code))
+  child.on('close', code => process.exit(code))
   return child
 }
 

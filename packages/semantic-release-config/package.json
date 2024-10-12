@@ -50,7 +50,7 @@
     "@semantic-release/git": "^10.0.1"
   },
   "devDependencies": {
-    "semantic-release": "^20.1.1"
+    "semantic-release": "^24.1.2"
   },
   "peerDependencies": {
     "semantic-release": ">=19.0.0"
@@ -61,7 +61,7 @@
     }
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
   "publishConfig": {
     "access": "public",
