@@ -15,6 +15,7 @@ module.exports = {
   useTabs: false,
   proseWrap: 'never',
   endOfLine: 'auto',
+  arrowParens: 'avoid',
   plugins,
   overrides: [
     { files: '.eslintrc', options: { parser: 'json' } },

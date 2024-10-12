@@ -55,7 +55,6 @@ module.exports = function (options) {
         {
           assets: ['package.json', 'CHANGELOG.md'],
           message:
-            // eslint-disable-next-line no-template-curly-in-string
             'chore(release): ${nextRelease.gitTag} [skip ci]\n\n${nextRelease.notes}',
           ...options.git,
         },

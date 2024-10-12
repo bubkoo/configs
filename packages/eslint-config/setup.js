@@ -1,31 +1,11 @@
-const { initConfig } = require('@bubkoo/config-util')
+import { initConfig } from '@bubkoo/config-util'
 
-const configFile = '.eslintrc'
-const ignoreFile = '.eslintignore'
-const configContent = `
-{
-  "extends": "@bubkoo/eslint-config"
-}
-`.trim()
-const ignoreContent = [
-  'node_modules',
-  '*.min.js',
-  '**/es/**',
-  '**/lib/**',
-  '**/dist/**',
-].join('\n')
+const configFileName = 'eslint.config'
+const configContent = `module.exports = require('@bubkoo/eslint-config')`.trim()
 
-initConfig(ignoreFile, `${ignoreContent}\n`)
-initConfig(
-  configFile,
-  `${configContent}\n`,
-  [
-    configFile,
-    `${configFile}.js`,
-    `${configFile}.cjs`,
-    `${configFile}.json`,
-    `${configFile}.yaml`,
-    `${configFile}.yml`,
-  ],
-  'eslintConfig',
-)
+initConfig(configFileName, `${configContent}\n`, [
+  configFileName,
+  `${configFileName}.js`,
+  `${configFileName}.cjs`,
+  `${configFileName}.mjs`,
+])

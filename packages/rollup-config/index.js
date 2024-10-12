@@ -24,7 +24,7 @@ module.exports = function ({
     for (const { file } of outputs) {
       const filename = `${file}.html`
       plugins.push(visualizer({ sourcemap: true, filename }))
-      // eslint-disable-next-line no-console
+
       console.log(`Bundle visualization generated in '${filename}'`)
     }
   }

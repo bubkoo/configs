@@ -1,28 +1,30 @@
-module.exports = {
-  extends: [
-    'plugin:jsx-a11y/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-  ],
-  plugins: ['react', 'react-hooks', 'jsx-a11y'],
-  env: {
-    browser: true,
+import jsxA11yPlugin from 'eslint-plugin-jsx-a11y'
+import reactPlugin from 'eslint-plugin-react'
+import reactHookPlugin from 'eslint-plugin-react-hooks'
+
+import { overrideName } from '../constants.js'
+
+export default [
+  {
+    ...jsxA11yPlugin.flatConfigs.recommended,
+    name: 'eslint-plugin-jsx-a11y/recommended',
   },
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
+  {
+    ...reactPlugin.configs.flat.recommended,
+    name: 'eslint-plugin-react/recommended',
+  },
+  {
+    name: `eslint-plugin-react/recommended/${overrideName}`,
+    rules: {
+      'react/sort-comp': 0,
+      'react/prop-types': 0,
+      'react/jsx-props-no-spreading': 0,
+      'react/destructuring-assignment': 0,
+      'react/no-access-state-in-setstate': 0,
     },
   },
-  settings: {
-    react: {
-      version: 'detect',
-    },
+  {
+    ...reactHookPlugin.configs.recommended,
+    name: 'eslint-plugin-react-hooks/recommended',
   },
-  rules: {
-    'react/sort-comp': 0,
-    'react/prop-types': 0,
-    'react/jsx-props-no-spreading': 0,
-    'react/destructuring-assignment': 0,
-    'react/no-access-state-in-setstate': 0,
-  },
-}
+]

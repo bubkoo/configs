@@ -35,13 +35,13 @@
     "@bubkoo/config-util": "^1.3.0"
   },
   "devDependencies": {
-    "typescript": "^4.9.5"
+    "typescript": "^5.5.4"
   },
   "peerDependencies": {
-    "typescript": ">=4.7.0"
+    "typescript": ">=5.5.4"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
   "publishConfig": {
     "access": "public",

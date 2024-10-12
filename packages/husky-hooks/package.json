@@ -33,15 +33,15 @@
   "dependencies": {
     "@bubkoo/commitlint-config": "^1.2.1",
     "@bubkoo/lint-staged-config": "^1.2.1",
-    "@commitlint/cli": "^17.4.4",
+    "@commitlint/cli": "^19.5.0",
     "cross-spawn": "^7.0.3",
-    "husky": "8.0.3",
-    "lint-staged": "^13.1.2",
-    "npm-run-path": "^5.1.0",
+    "husky": "^9.1.6",
+    "lint-staged": "^15.2.10",
+    "npm-run-path": "^6.0.0",
     "pidtree": "^0.6.0"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.0.0"
   },
   "publishConfig": {
     "access": "public",
