@@ -1,5 +1,17 @@
 import { initConfig } from '@bubkoo/config-util'
 
-const configContent = `module.exports = require('@bubkoo/eslint-config')`.trim()
+const configContent = `
+import { config } from '@bubkoo/eslint-config'
+
+export default config([
+  {
+    files: ['**/*.js', '**/*.ts'],
+  },
+  {
+    rules: {
+    },
+  },
+])
+`.trim()
 
 initConfig('eslint.config.mjs', `${configContent}\n`)
