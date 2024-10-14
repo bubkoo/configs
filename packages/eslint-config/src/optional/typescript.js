@@ -29,7 +29,15 @@ export default [
       '@typescript-eslint/no-useless-constructor': 0,
       '@typescript-eslint/no-unused-vars': [
         2,
-        { vars: 'all', args: 'after-used', ignoreRestSiblings: true },
+        {
+          args: 'all',
+          argsIgnorePattern: '^_',
+          caughtErrors: 'all',
+          caughtErrorsIgnorePattern: '^_',
+          destructuredArrayIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          ignoreRestSiblings: true,
+        },
       ],
       '@typescript-eslint/no-redeclare': [2, { ignoreDeclarationMerge: true }],
     },
