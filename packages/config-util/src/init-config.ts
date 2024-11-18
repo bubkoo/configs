@@ -1,4 +1,3 @@
-import chalk from 'chalk'
 import fs from 'node:fs'
 import path from 'node:path'
 import { readJson } from './read-json'
@@ -10,7 +9,7 @@ export function initConfig(
   packageJsonKey?: string,
 ) {
   if (process.env.CI !== undefined) {
-    console.log(chalk.grey('CI environment, skipping.'))
+    console.log('CI environment, skipping.')
     process.exit(0)
   }
 
@@ -25,9 +24,7 @@ export function initConfig(
   for (const filename of filenames) {
     const file = path.join(cwd, filename)
     if (fs.existsSync(file)) {
-      console.log(
-        chalk.grey(`Config file "${filename}" already exists, skipping.`),
-      )
+      console.log(`Config file "${filename}" already exists, skipping.`)
       process.exit(0)
     }
   }
@@ -37,9 +34,7 @@ export function initConfig(
     const packageJson = readJson<any>(packageJsonFile)
     if (packageJson[packageJsonKey]) {
       console.log(
-        chalk.grey(
-          `Config with key "${packageJsonKey}" already exists in package.json, skipping.`,
-        ),
+        `Config with key "${packageJsonKey}" already exists in package.json, skipping.`,
       )
       process.exit(0)
     }
@@ -47,5 +42,5 @@ export function initConfig(
 
   const file = path.join(cwd, filename)
   fs.writeFileSync(file, content)
-  console.log(chalk.green(`Config file "${filename}" created.`))
+  console.log(`Config file "${filename}" created.`)
 }

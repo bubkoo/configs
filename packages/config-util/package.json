@@ -38,9 +38,6 @@
     "prepare": "run-p build",
     "prepublish": "run-s build"
   },
-  "dependencies": {
-    "chalk": "^4.1.2"
-  },
   "engines": {
     "node": ">=20.0.0"
   },
