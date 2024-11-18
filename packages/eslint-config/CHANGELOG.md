@@ -1,3 +1,10 @@
+## @bubkoo/eslint-config [3.1.1](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@3.1.0...@bubkoo/eslint-config@3.1.1) (2024-11-18)
+
+
+### Bug Fixes
+
+* remove eslint rule: 'unicorn/expiring-todo-comments' ([7f7a967](https://github.com/bubkoo/configs/commit/7f7a9671a32d77501f80f45c0cf8536fa483531c))
+
 # @bubkoo/eslint-config [3.1.0](https://github.com/bubkoo/configs/compare/@bubkoo/eslint-config@3.0.3...@bubkoo/eslint-config@3.1.0) (2024-10-14)
 
 

@@ -1,3 +1,10 @@
+## @bubkoo/config-util [2.0.3](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@2.0.2...@bubkoo/config-util@2.0.3) (2024-11-18)
+
+
+### Bug Fixes
+
+* remove chalk ([8cb734f](https://github.com/bubkoo/configs/commit/8cb734fb85b26ba9b40848ae1656ae2f8d391a3d))
+
 ## @bubkoo/config-util [2.0.2](https://github.com/bubkoo/configs/compare/@bubkoo/config-util@2.0.1...@bubkoo/config-util@2.0.2) (2024-10-12)
 
 
