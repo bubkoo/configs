@@ -25,7 +25,6 @@ export default [
       'unicorn/no-array-reduce': 'off',
       'unicorn/no-array-callback-reference': 'warn',
 
-      'unicorn/expiring-todo-comments': 'warn',
       'unicorn/consistent-function-scoping': 'warn',
       'unicorn/filename-case': ['warn', { case: 'kebabCase' }],
 
